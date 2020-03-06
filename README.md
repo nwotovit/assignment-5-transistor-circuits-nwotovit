@@ -22,7 +22,7 @@ _**NOTE:** This assignment [README](README.md) is _intentionally_ blank. It is p
 ```
 Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 
-**NPN Circuit Measurements**
+**NPN Circuit**
 **Voltage measurements with switch off:**
 Voltage across resistor R(c) is 0v.
 Voltage at the base, emitter and collector is 0v.
@@ -45,7 +45,21 @@ The amplification coefficient is about 20 because the ratio of collector:base is
 
 [Here](https://imgur.com/a/XaB01gS) is a drawing of my NPN circuit.
 
+**PNP Circuit**
+The PNP transistor causes the LED to be off while the switch is on. This is opposite from the NPN circuit where the turning the switch on would turn the LED on.
 
+**Voltage measurements with switch off**
+Voltage drop across the resistor R(c) is 2.68v
+Voltage at the collector is 4.99v
+Voltage at the base is 4.34v 
+Voltage at the emitter is 5.07v
+**Current measurements with switch off**
+The current at the collector is 6.99 mAmps
+The current at the base is .44 mAmps
+The current at the emitter is 7.43 mAmps 
 
+With these current measurements we can once again see that emitter current is the sum of collector plus base current. In this case it is 6.99 + .44 = 7.43 mAmps
 
+The amplification coefficient from these measurements is approximately 16:1. This is because 6.99 is about x16 bigger than .44.
 
+You can find my drawing of the PNP circuit [Here](https://imgur.com/a/4xbOpXB)

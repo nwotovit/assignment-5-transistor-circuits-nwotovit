@@ -30,14 +30,14 @@ Voltage at the base, emitter and collector is 0v.
 The current at the collector, emitter, and base is 0 amps. We also know this because I = V/R. If V = 0, then current will always be equal to 0. No current is flowing because no voltage is flowing.
 
 **Voltage measurements with switch on:**
-Voltage across resistor R(c) is 2.85v
-Voltage from the base relative to ground is .75v 
-Voltage from the collector relative to ground is .105v
-Voltage from the emitter relative to ground is .006v
+Voltage across resistor R(c) is 2.85v.
+Voltage from the base relative to ground is .75v.
+Voltage from the collector relative to ground is .105v.
+Voltage from the emitter relative to ground is .006v.
 **Current measurements with switch on:**
-The current at the collector is 6.2 mAmps or .0062 amps     
-The current at the base is .3 mAmps or .0003 amps    
-The current at the emitter is 6.5 mAmps or .0065 amps 
+The current at the collector is 6.2 mAmps or .0062 amps.     
+The current at the base is .3 mAmps or .0003 amps.    
+The current at the emitter is 6.5 mAmps or .0065 amps. 
 
 These measurements show us that the emitter is emitting the sum of the base and collector current. This is also seen because 6.2 + .3 = 6.5 mAmps or .0065 amps.  
 
@@ -48,15 +48,20 @@ The amplification coefficient is about 20 because the ratio of collector:base is
 **PNP Circuit**
 The PNP transistor causes the LED to be off while the switch is on. This is opposite from the NPN circuit where the turning the switch on would turn the LED on.
 
+**Measurements with switch on**
+Voltage at the collector, base, emitter, and resistor R(c) is 0v.
+Current at the collector, base, and emitter is 0 Amps.
+
 **Voltage measurements with switch off**
-Voltage drop across the resistor R(c) is 2.68v
-Voltage at the collector is 4.99v
-Voltage at the base is 4.34v 
-Voltage at the emitter is 5.07v
+Voltage drop across the resistor R(c) is 2.68v.
+Voltage at the collector is 4.99v.
+Voltage at the base is 4.34v.
+Voltage at the emitter is 5.07v.
+
 **Current measurements with switch off**
-The current at the collector is 6.99 mAmps
-The current at the base is .44 mAmps
-The current at the emitter is 7.43 mAmps 
+The current at the collector is 6.99 mAmps.
+The current at the base is .44 mAmps.
+The current at the emitter is 7.43 mAmps. 
 
 With these current measurements we can once again see that emitter current is the sum of collector plus base current. In this case it is 6.99 + .44 = 7.43 mAmps
 

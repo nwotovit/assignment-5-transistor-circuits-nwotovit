@@ -99,4 +99,4 @@ The base voltage of wet soil is 3.42 v.
 
 The base voltage of soaked soil is 4.18 v.
 
-Using an LED on the workstation we can detect when the TTL switch is activated. Video demonstration [Here](https://imgur.com/i19iXsm).
+Using an LED on the workstation we can detect when the TTL switch is activated. A pullup resistor is unnecessary as the microbit already has one. Video demonstration [Here](https://imgur.com/i19iXsm).

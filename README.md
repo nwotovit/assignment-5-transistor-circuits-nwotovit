@@ -103,4 +103,4 @@ Using an LED on the workstation we can detect when the TTL switch is activated. 
 
 **Manual Calibration**
 
-I used the analog read and digital write funtions to get my moisture reading when dipped in water as a number. I then used this number to tell the microbit "this is the value when the soil sensor is submerged. The code displays that value as a bar graph essentially. Showing a larger height on the LED screen when there is more current flowing through the prongs of the soil sensor. Video [Here](https://imgur.com/a/vzhKwTm)
+I used the analog read and digital write funtions to get my moisture reading when dipped in water as a number. I then used this number to tell the microbit "this is the value when the soil sensor is submerged. The code displays that value as a bar graph essentially. Showing a larger height on the LED screen when there is more current flowing through the prongs of the soil sensor. Video Demonstration [Here](https://imgur.com/a/vzhKwTm)

@@ -100,3 +100,7 @@ The base voltage of wet soil is 3.42 v.
 The base voltage of soaked soil is 4.18 v.
 
 Using an LED on the workstation we can detect when the TTL switch is activated. A pullup resistor is unnecessary as the microbit already has one. Video demonstration [Here](https://imgur.com/i19iXsm).
+
+**Manual Calibration**
+
+I used the analog read and digital write funtions to get my moisture reading when dipped in water as a number. I then used this number to tell the microbit "this is the value when the soil sensor is submerged. The code displays that value as a bar graph essentially. Showing a larger height on the LED screen when there is more current flowing through the prongs of the soil sensor. Video [Here](https://imgur.com/a/vzhKwTm)
